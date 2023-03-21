@@ -1,8 +1,6 @@
 /*
 Package twitter provides a Client for the Twitter API.
 
-Deprecated: This package will no longer be developed.
-
 The twitter package provides a Client for accessing the Twitter API. Here are
 some example requests.
 
@@ -36,7 +34,7 @@ has granted access, with OAuth1.
 
 	// OAuth1
 	import (
-		"github.com/dghubble/go-twitter/twitter"
+		"github.com/muxy/go-twitter/twitter"
 		"github.com/dghubble/oauth1"
 	)
 
@@ -53,7 +51,7 @@ application auth.
 
 	// OAuth2
 	import (
-		"github.com/dghubble/go-twitter/twitter"
+		"github.com/muxy/go-twitter/twitter"
 		"golang.org/x/oauth2"
 		"golang.org/x/oauth2/clientcredentials"
 	)
